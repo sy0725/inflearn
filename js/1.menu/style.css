@@ -1,0 +1,87 @@
+/* 기본 스타일 */
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f8f8f8;
+  margin: 0;
+  padding: 20px;
+}
+
+/* 제목 */
+h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* 버튼 스타일 */
+div {
+  margin-bottom: 20px;
+}
+
+button {
+  background-color: #ff9800;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  margin: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #e68900;
+}
+
+/* 리스트 스타일 */
+.itemList {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* 개별 아이템 스타일 */
+.item {
+  background: white;
+  width: 250px;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: 0.3s;
+}
+
+.item:hover {
+  transform: scale(1.05);
+}
+
+/* 이미지 스타일 */
+.item img {
+  width: 100%;
+  border-radius: 10px;
+  height: 150px;
+  object-fit: cover;
+}
+
+/* 아이템 정보 */
+.itemInfo {
+  margin-top: 10px;
+}
+
+/* 가격 스타일 */
+.itemPrice {
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* 가게 이름 */
+.itemInfo p:last-child {
+  font-size: 14px;
+  color: #666;
+}
